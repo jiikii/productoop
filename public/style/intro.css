@@ -1,0 +1,24 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../imgs/bg.jpg);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+}
+
+.title > h2 {
+    font-size: 100px;
+}
+
+form > .loginbtn {
+    display: flex;
+    margin: auto;
+}
